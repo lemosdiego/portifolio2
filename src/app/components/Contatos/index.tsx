@@ -8,15 +8,15 @@ export const Contact = () => {
         <Typography variant="h6">Vamos conversar?</Typography>
       </Grid>
       <Grid item display="flex" gap="2px">
-        <Icon sx={{ width:{xs:"50px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius: 50 }}><img src="/whats.ico" alt="whatsapp" width="50px" height="50px" />
+        <Icon sx={{ width:{xs:"50px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius: 50 }}><img src="/iconessvg/whats.svg" alt="whatsapp" width="50px" height="50px" />
         </Icon>
-        <Icon sx={{ width:{xs:"50px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius: 50 }}><img src="/linkedin.ico" alt="linkedin" width="50px" height="50px" />
+        <Icon sx={{ width:{xs:"50px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius: 50 }}><img src="/iconessvg/linkedin.svg" alt="linkedin" width="50px" height="50px" />
         </Icon>
-        <Icon sx={{ width:{xs:"50px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius: 50 }}><img src="/insta.ico" alt="instagram" width="50px" height="50px" />
+        <Icon sx={{ width:{xs:"50px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius: 50 }}><img src="/iconessvg/insta.svg" alt="instagram" width="50px" height="50px" />
         </Icon>
-        <Icon sx={{ width:{xs:"50px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius: 50 }}><img src="/gmail.ico" alt="gmail" width="50px" height="50px" />
+        <Icon sx={{ width:{xs:"50px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius: 50 }}><img src="/iconessvg/gmail.svg" alt="gmail" width="50px" height="50px" />
         </Icon>
-        <Icon sx={{ width:{xs:"50px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius: 50 }}><img src="/face.ico" alt="facebook" width="50px" height="50px" />
+        <Icon sx={{ width:{xs:"50px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius: 50 }}><img src="/iconessvg/face.svg" alt="facebook" width="50px" height="50px" />
         </Icon>
         
       </Grid>

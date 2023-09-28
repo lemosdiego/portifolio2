@@ -9,22 +9,25 @@ export const Ferramentas = () => {
             </Grid>
             <Grid container display="flex" sx={{ gap: {md: "20px" }, justifyContent: "center", paddingTop:{xs:"30px", md:"80px"},flexWrap:{xs:"wrap"}, padding:"40px" }}>
                 <Grid item  >
-                <Icon sx={{width:{xs:"70px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius:50}}><img src="/js.ico" alt="javascript" width="50px" height="50px"/></Icon>
+                <Icon sx={{width:{xs:"70px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius:50}}><img src="/iconessvg/js.svg" alt="javascript" width="50px" height="50px"/></Icon>
                 </Grid>
                 <Grid item  >
-                <Icon sx={{width:{xs:"70px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius:50}}><img src="/css.ico" alt="css" width="50px" height="50px"/></Icon>
+                <Icon sx={{width:{xs:"70px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius:50}}><img src="/iconessvg/css.svg" alt="css" width="50px" height="50px"/></Icon>
                 </Grid>
                 <Grid item  >
-                <Icon sx={{width:{xs:"70px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius:50}}><img src="/html.ico" alt="html" width="50px" height="50px"/></Icon>
+                <Icon sx={{width:{xs:"70px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius:50}}><img src="/iconessvg/html.svg" alt="html" width="50px" height="50px"/></Icon>
                 </Grid>
                 <Grid item  >
-                <Icon sx={{width:{xs:"70px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius:50}}><img src="/nextjs.ico" alt="nextjs" width="50px" height="50px"/></Icon>
+                <Icon sx={{width:{xs:"70px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius:50}}><img src="/iconessvg/next.svg" alt="nextjs" width="50px" height="50px"/></Icon>
                 </Grid>
                 <Grid item  >
-                <Icon sx={{width:{xs:"70px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius:50}}><img src="/github.ico" alt="github" width="50px" height="50px"/></Icon> 
+                <Icon sx={{width:{xs:"70px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius:50}}><img src="/iconessvg/github.svg" alt="github" width="50px" height="50px"/></Icon> 
                 </Grid>
                 <Grid item  >
-                <Icon sx={{width:{xs:"70px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius:50}}><img src="/python.ico" alt="python" width="50px" height="50px"/></Icon>
+                <Icon sx={{width:{xs:"70px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius:50}}><img src="/iconessvg/git.svg" alt="python" width="50px" height="50px"/></Icon>
+                </Grid>
+                <Grid item  >
+                <Icon sx={{width:{xs:"70px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius:50}}><img src="/iconessvg/python.svg" alt="python" width="50px" height="50px"/></Icon>
                 </Grid>
                 </Grid>
             </Grid>
