@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@mui/material"
+import { Grid, Link, Typography } from "@mui/material"
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
@@ -10,8 +10,12 @@ export const AboutMe = () => {
         <Typography variant='h6' sx={{paddingTop:{xs:"10px", md:"40px"}}}>Além dos estudos:</Typography>
         <Typography variant='subtitle1' sx={{paddingTop:{xs:"10px", md:"55px"}}}>Sou alguém que ama aventuras ao ar livre. Adoro fazer trilhas, jogar futebol e também sou um entusiasta do ciclismo. Estou sempre em busca de desafios e novas experiências, seja na tecnologia ou explorando a natureza.</Typography>
         <Grid>
+        <Link href="https://www.instagram.com/washington.lemos_/" target="_blank">
         <InstagramIcon />
+        </Link>
+        <Link href="https://www.linkedin.com/in/washington-lemos-033177186/" target="_blank">
         <LinkedInIcon />
+        </Link>
         </Grid>
         
       </Grid>
