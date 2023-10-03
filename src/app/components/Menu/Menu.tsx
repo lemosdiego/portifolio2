@@ -1,8 +1,9 @@
 "use client"
 import { useState } from "react";
-import { Box, Divider, Drawer, Grid, Link, MenuItem, MenuList, Toolbar } from "@mui/material"
+import { Avatar, Box, Divider, Drawer, Grid, Link, MenuItem, MenuList, Toolbar } from "@mui/material"
 import IconButton from '@mui/material/IconButton';
 import { Close as CloseIcon, Menu as MenuIcon } from "@mui/icons-material"
+import FolderSharedIcon from '@mui/icons-material/FolderShared'
 
 
 
@@ -25,7 +26,7 @@ export const MenuBar = () => {
             {open ? <CloseIcon /> : <MenuIcon />}
           </IconButton>
           <Box color="black" gap={8} sx={{ display: { xs: "none", md: "flex" } }}>
-            <MenuItem>
+            <MenuItem >
             <Link sx={{textDecoration:"none", color:"white"}} href="#home">Home</Link>
             </MenuItem>
             <MenuItem >
@@ -60,8 +61,12 @@ export const MenuBar = () => {
         open={open}
         hideBackdrop
       >
-        <MenuList>
-          <MenuItem>WL</MenuItem>
+        <MenuList sx={{padding:"20px"}}>
+          <MenuItem>
+          <Link href="https://drive.google.com/file/d/1vBRv75265BhMUKL3MOv0kp0Bk0p9sOdD/view?usp=drive_link" target="_blank">
+          < FolderSharedIcon fontSize="large"/>
+          </Link>
+          </MenuItem>
           <Divider/>
           <MenuItem>
           <Link sx={{textDecoration:"none", color:"black"}} href="#home">Home</Link>
