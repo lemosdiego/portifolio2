@@ -33,6 +33,12 @@ export const Ferramentas = () => {
                 <Grid item  >
                 <Icon sx={{width:{xs:"70px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius:50}}><img src="/iconessvg/exel.svg" alt="python" width="50px" height="50px"/></Icon>
                 </Grid>
+                <Grid item  >
+                <Icon sx={{width:{xs:"70px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius:50}}><img src="/iconessvg/typescript.svg" alt="typescript" width="50px" height="50px"/></Icon>
+                </Grid>
+                <Grid item  >
+                <Icon sx={{width:{xs:"70px", md:"80px"}, height:{xs:"50px", md:"80px"}, borderRadius:50}}><img src="/iconessvg/react.svg" alt="react" width="50px" height="50px"/></Icon>
+                </Grid>
                 </Grid>
             </Grid>
        
