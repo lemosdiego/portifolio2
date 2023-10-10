@@ -12,7 +12,7 @@ export const Projetos = () => {
       flexDirection="column" 
       alignItems="center" >
       <Grid item textAlign="center"  >
-        <Typography variant="h5" sx={{ paddingTop: { xs: "20px", md: "80px" }, paddingBottom: { xs: "10px", md: "40px" } }}>Meus Projetos:</Typography>
+        <Typography variant="h5" sx={{ paddingTop: { xs: "20px", md: "80px" }, paddingBottom: { xs: "10px", md: "40px" } }}>Alguns projetos:</Typography>
       </Grid>
       <Grid container sx={{ height: { xs: "190px", sm:"200px", md: "250px" }, width: { xs: "98%",sm:"60%", md: "50%" }, flexDirection:"row", boxShadow:"rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;"}}>
         <Grid item width="40%"  height="100%" borderRadius="50%" boxShadow="rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">

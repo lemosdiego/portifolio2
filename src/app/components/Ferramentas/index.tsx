@@ -6,7 +6,7 @@ export const Ferramentas = () => {
     return (
         <Grid  sx={{  width:"100%", height:{xs:"350px", md:"100%"}, boxShadow:"rgba(0, 0, 0, 0.1) 0px 10px 50px;", }} id="icones">
             <Grid padding={2} item textAlign="center"  >
-                <Typography  variant="h5" sx={{paddingTop:{xs:"20px", md:"170px"}, paddingBottom:{xs:"10px", md:"40px"}}}>Habilidades:</Typography>
+                <Typography  variant="h5" sx={{paddingTop:{xs:"20px", md:"170px"}, paddingBottom:{xs:"10px", md:"40px"}}}>Ferramentas que uso:</Typography>
             </Grid>
             <Grid container display="flex" sx={{ gap: {md: "20px" }, justifyContent: "center", paddingTop:{xs:"30px", md:"80px"},flexWrap:{xs:"wrap"}, padding:"40px" }}>
                 <Grid item  >

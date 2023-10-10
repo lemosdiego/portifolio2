@@ -5,7 +5,7 @@ export const Inicio = () => {
   return (
     <Grid id="home" container width="100%" justifyContent="center" padding={12} sx={{ flexDirection: { xs: "block", md: "row" }, gap: { md: "50px" }, padding: { xs: "20px", ms: "40px" }, height: { xs: "100%",sm:"80%", md: "100%" }, paddingTop: { xs: "80px", md: "80px" }, boxShadow: "rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;" }}  >
 
-      <Grid item sx={{ height: { xs: "250px", md: "300px" }, width: { xs: "250px", md: "300px" }, marginTop: { xs: "8px", md: "160px" } }}>
+      <Grid item sx={{ height: { xs: "250px", md: "300px" }, width: { xs: "250px", md: "300px" }, marginTop: { xs: "8px", md: "160px" },boxShadow:"" }}>
         <img src="/minhafoto.png" height="100%" width="100%" />
       </Grid>
       <Grid
