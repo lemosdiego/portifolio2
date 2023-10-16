@@ -9,10 +9,10 @@ export const Inicio = () => {
         <img src="/minhafoto.png" height="100%" width="100%" />
         <Grid sx={{paddingLeft:{xs:"25px",md:"50px"}, display:{xs:"flex",md:"flex"}, gap:{xs:"4px", md:"4px"}, paddingTop:{xs:"2px", md:"10px"}}}>
         <Link href="https://www.linkedin.com/in/washington-lemos-033177186/" target="_blank">
-        <Button sx={{boxShadow:"rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;",width:"100px", backgroundColor:"#81c9fa", color:"black"}}>Linkedin</Button>
+        <Button sx={{boxShadow:"rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;",width:"100px", color:"black"}}>Linkedin</Button>
         </Link>
         <Link href="https://github.com/lemosdiego" target="_blank">
-        <Button sx={{boxShadow:"rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px", width:"100px", backgroundColor:"#81c9fa", color:"black"}}>Github</Button>
+        <Button  sx={{boxShadow:"rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px", width:"100px", color:"black"}}>Github</Button>
         </Link>
         </Grid>
       </Grid>
@@ -27,7 +27,7 @@ export const Inicio = () => {
         <Typography variant="subtitle1" sx={{ paddingTop: { xs: "20px",sm:"20px", md: "10px" }, paddingBottom: { xs: "20px" } }}> Sou um estudante apaixonado por tecnologia e estou determinado a conquistar um estágio na área. Quero aproveitar ao máximo cada oportunidade para aprender e crescer, aplicando o que aprendo no mundo real. Vamos juntos nessa jornada de aprendizado e desenvolvimento!
         </Typography>
         <Link href="https://drive.google.com/file/d/1is49CLQl7NqUM9UD_Kho12KINuq1dVie/view?usp=sharing" target="_blank">
-        <Button sx={{boxShadow:"rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset", backgroundColor:"#a5b3aa"}}>currículo</Button>
+        <Button sx={{ boxShadow:"rgba(0, 0, 0, 0.24) 0px 3px 8px;",color:"black"}}>currículo</Button>
         </Link>
       </Grid>
 
