@@ -9,10 +9,10 @@ export const Inicio = () => {
         <img src="/minhafoto.png" height="100%" width="100%" />
         <Grid sx={{paddingLeft:{xs:"25px",md:"50px"}, display:{xs:"flex",md:"flex"}, gap:{xs:"4px", md:"4px"}, paddingTop:{xs:"2px", md:"10px"}}}>
         <Link href="https://www.linkedin.com/in/washington-lemos-033177186/" target="_blank">
-        <Button sx={{boxShadow:"rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;",width:"100px", color:"black"}}>Linkedin</Button>
+        <Button  sx={{boxShadow:"rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;",width:"100px", color:"black"}}>Linkedin</Button >
         </Link>
         <Link href="https://github.com/lemosdiego" target="_blank">
-        <Button  sx={{boxShadow:"rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px", width:"100px", color:"black"}}>Github</Button>
+        <Button sx={{boxShadow:"rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px", width:"100px", color:"black"}}>Github</Button>
         </Link>
         </Grid>
       </Grid>

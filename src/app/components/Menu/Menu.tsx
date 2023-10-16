@@ -7,6 +7,7 @@ import FolderSharedIcon from '@mui/icons-material/FolderShared'
 
 
 
+
 export const MenuBar = () => {
   const [open, OpenMenu] = useState(false)
   const handleToogleMenu = () => {
@@ -14,8 +15,8 @@ export const MenuBar = () => {
   }
   return (
     <>
-      <Grid width="100%" height="60px" position="fixed" sx={{backgroundColor:{xs:"white", md:"black"}, boxShadow:{xs:"rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;"}}} >
-        <Toolbar sx={{ justifyContent: "flex-end"}}>
+      <Grid width="100%" height="60px" position="fixed" sx={{backgroundColor:{xs:"black", md:"black"}, boxShadow:{xs:"rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;"}}} >
+        <Toolbar sx={{ justifyContent: "flex-end", color:"white"}}>
           <IconButton
             size="large"
             edge="start"
