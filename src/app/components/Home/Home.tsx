@@ -3,7 +3,7 @@ import { Box, Button, Grid, Link, Typography, responsiveFontSizes } from "@mui/m
 
 export const Inicio = () => {
   return (
-    <Grid id="home" container width="100%" justifyContent="center" padding={12} sx={{ flexDirection: { xs: "block", md: "row" }, gap: { md: "50px" }, padding: { xs: "20px", ms: "40px" }, height: { xs: "100%",sm:"80%", md: "100%" }, paddingTop: { xs: "80px", md: "80px" }, boxShadow: "rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;" }}  >
+    <Grid id="home" container width="100%" justifyContent="center" padding={12} sx={{ flexDirection: { xs: "block", md: "row" }, gap: { md: "50px" }, padding: { xs: "20px", ms: "40px" }, height: { xs: "105%",sm:"90%", md: "100%" }, paddingTop: { xs: "80px", md: "80px" }, boxShadow: "rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;" }}  >
 
       <Grid item sx={{ height: { xs: "250px", md: "300px" }, width: { xs: "250px", md: "300px" }, marginTop: { md: "160px" },boxShadow:"" }}>
         <img src="/minhafoto.png" height="100%" width="100%" />
@@ -26,7 +26,9 @@ export const Inicio = () => {
         <Typography sx={{ paddingTop: {xs:"20px", md: "20px", sm:"50px", lg:"48px" } }} variant="h4" >Olá, me chamo Washington!</Typography>
         <Typography variant="subtitle1" sx={{ paddingTop: { xs: "20px",sm:"20px", md: "10px" }, paddingBottom: { xs: "20px" } }}> Sou um estudante apaixonado por tecnologia e estou determinado a conquistar um estágio na área. Quero aproveitar ao máximo cada oportunidade para aprender e crescer, aplicando o que aprendo no mundo real. Vamos juntos nessa jornada de aprendizado e desenvolvimento!
         </Typography>
-
+        <Link href="https://drive.google.com/file/d/1is49CLQl7NqUM9UD_Kho12KINuq1dVie/view?usp=sharing" target="_blank">
+        <Button sx={{boxShadow:"rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset", backgroundColor:"#a5b3aa"}}>currículo</Button>
+        </Link>
       </Grid>
 
 
