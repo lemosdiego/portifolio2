@@ -65,7 +65,7 @@ export const MenuBar = () => {
         <MenuList sx={{padding:"20px"}}>
           <MenuItem>
           <Link href="https://drive.google.com/file/d/1is49CLQl7NqUM9UD_Kho12KINuq1dVie/view?usp=sharing" target="_blank">
-         <Avatar src="iconessvg/curriculo.svg"/>
+         <Avatar src="logo.png"/>
           </Link>
           </MenuItem>
           <Divider/>
