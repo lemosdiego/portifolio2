@@ -1,37 +1,74 @@
-import {  Grid, Typography } from "@mui/material"
+import { Button, Card, CardActions, CardContent, CardMedia, Grid, Link, Typography } from "@mui/material"
 
 
 export const Projetos = () => {
   return (
-    <Grid id="Projects" 
-    sx={{
-      height:{xs:"70%", md:"100%"}, 
-      gap:{xs:"20px",md:"14px"}, 
-      boxShadow:"rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;"}} 
-      width="100%" display="flex" 
-      flexDirection="column" 
-      alignItems="center" >
+    <Grid id="Projects" width="100%" sx={{ height: { xs: "1150px", md: "100%" }, backgroundColor: "#f4f8e6" }}>
       <Grid item textAlign="center"  >
-        <Typography variant="h5" sx={{ paddingTop: { xs: "20px", md: "80px" }, paddingBottom: { xs: "10px", md: "40px" } }}>Alguns projetos:</Typography>
+        <Typography variant="h5" sx={{ paddingTop: { xs: "30px", md: "80px" }, paddingBottom: { xs: "10px", md: "40px" } }}>Alguns projetos:</Typography>
       </Grid>
-      <Grid container sx={{ height: { xs: "190px", sm:"200px", md: "250px" }, width: { xs: "98%",sm:"60%", md: "50%" }, flexDirection:"row", boxShadow:"rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;"}}>
-        <Grid item width="40%"  height="100%" borderRadius="50%" boxShadow="rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">
-        <img src="/projeto1.png" height="100%" width="100%" />
-        </Grid>
-        <Grid item width="60%"  height="100%" textAlign="left">
-          <Typography variant="h6" sx={{paddingTop:{xs:"20px", md:"50px"}}}>Find my beer</Typography>
-          <Typography variant="subtitle2" sx={{paddingTop:{md:"16px"}, paddingLeft:{xs:"8px"}, paddingRight:{xs:"8px"}}}>Em andamento...O objetivo dessa aplicação é me fornecer no mapa uma lista de cervejarias.</Typography>
-        </Grid>
-      </Grid>
-      <Grid container sx={{ height: { xs: "190px", sm:"200px", md: "250px" }, width: { xs: "98%",sm:"60%", md: "50%" }, flexDirection:"row", boxShadow:"rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;"}}>
-      <Grid item width="60%"  height="100%" textAlign="right">
-        <Typography variant="h6" sx={{paddingTop:{xs:"20px",md:"50px"}}}>Cadastro de Usuário</Typography>
-          <Typography variant="subtitle2" sx={{paddingTop:{md:"16px"}, paddingRight:{xs:"8px"}}}>Em andamento...Tem como objetivo um formulário de cadastro de usuário, onde os dados que o usuário me fornecer irá ser salvo no banco de dados. </Typography>
-        </Grid>
-        <Grid item width="40%"  height="100%" borderRadius="50%" boxShadow="rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">
-        <img src="/projeto2.png" height="100%" width="100%" />
-        </Grid>
-       
+      <Grid gap={2} sx={{ display: { xs: "flex", md: "flex" }, alignItems: { xs: "center", md: "center" }, flexDirection: { xs: "column", md: "row" }, justifyContent: { md: "center" }, marginTop: { xs: "20px  ", md: "80px" }, flexWrap: { md: "no-wrap" }}}>
+        <Card sx={{ maxWidth:"300px" }}>
+          <CardMedia
+            sx={{ height: 140 }}
+            image="projeto1.jpeg"
+            title="Findmybeer"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              Find my beer
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Em andamento...Tem como objetivo me fornecer na tela uma lista de cervejarias a partir da localização do usuário.
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Link href="https://github.com/lemosdiego/find-my-beer" target="_blank">
+              <Button>Repositório</Button>
+            </Link>
+          </CardActions>
+        </Card>
+        <Card sx={{ maxWidth:"300px"}}>
+          <CardMedia
+            sx={{ height: 140 }}
+            image="projeto2.jpeg"
+            title="Cadastro"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              Cadastro de Usuário
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Em andamento...Tem como objetivo um formulário de cadastro de usuário no banco de dados.
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Link>
+              <Button>Repositório</Button>
+            </Link>
+          </CardActions>
+        </Card>
+        <Card sx={{ maxWidth:"300px" }}>
+          <CardMedia
+            sx={{ height: 140 }}
+            image="projeto3.jpeg"
+            title="lista de tarefas"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              Lista de tarefas
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Lista de tarefas básica, feita no inicio do aprendizado tecnologias usadas HTML5 CSS3
+              JavaScript
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Link href="https://github.com/lemosdiego/Tarefas-Diarias" target="_blank">
+              <Button>Repositório</Button>
+            </Link>
+          </CardActions>
+        </Card>
       </Grid>
     </Grid>
   )
