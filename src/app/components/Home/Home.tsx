@@ -4,8 +4,8 @@ import { Box, Button, Grid, Link, Typography, responsiveFontSizes } from "@mui/m
 export const Inicio = () => {
   return (
     <Grid id="home"  container width="100%" justifyContent="center" padding={12} sx={{ flexDirection: { xs: "block", md: "row" }, gap: { md: "50px" }, padding: { xs: "20px", ms: "40px" }, height: { xs: "105%",sm:"90%", md: "100%" }, paddingTop: { xs: "80px", md: "80px" },backgroundColor:"#6A0C0B"}}>
-      <Grid item sx={{ height: { xs: "250px", md: "300px" }, width: { xs: "250px", md: "300px" }, marginTop: { md: "160px" },boxShadow:"" }}>
-        <img src="/minhafoto.png" height="100%" width="100%" />
+      <Grid item sx={{ height: { xs: "250px", md: "300px" }, width: { xs: "250px", md: "300px" }, marginTop: { md: "160px" } }}>
+        <img src="/minhafoto5.png" height="100%" width="100%"/>
         <Grid sx={{paddingLeft:{xs:"25px",md:"50px"}, display:{xs:"flex",md:"flex"}, gap:{xs:"4px", md:"4px"}, paddingTop:{xs:"2px", md:"10px"}}}>
         <Link href="https://www.linkedin.com/in/washington-lemos-033177186/" target="_blank">
         <Button  sx={{width:"100px", color:"#FBCA03",background:"#AA0505"}}>Linkedin</Button >
