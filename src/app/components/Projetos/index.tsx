@@ -43,7 +43,7 @@ export const Projetos = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Link>
+            <Link href="https://github.com/lemosdiego/Formulario" target="_blank">
               <Button sx={{color:"#FBCA03",background:"#6A0C0B"}}>Repositório</Button>
             </Link>
           </CardActions>
