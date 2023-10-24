@@ -3,7 +3,7 @@ import { Grid, Icon, Link, Typography } from "@mui/material"
 
 export const Contact = () => {
   return (
-  <Grid id="contatos" container alignItems="center" height="200px" width="100%" justifyContent="center" display="flex" gap={1} sx={{padding:{xs:"20px"},background:"#67C7EB"}}>
+  <Grid id="contatos" container alignItems="center"  width="100%" justifyContent="center" display="flex" gap={1} sx={{padding:{xs:"20px"},background:"#67C7EB", height:{xs:"150px", md:"200px"}}}>
       <Grid item sx={{paddingBottom:{md:"30px"}}}>
         <Typography variant="h6">Vamos conversar?</Typography>
       </Grid>
