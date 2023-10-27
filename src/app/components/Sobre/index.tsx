@@ -28,9 +28,11 @@ export const AboutMe = () => {
         <Typography color="#FBCA03" variant='h6' sx={{ paddingTop: { xs: "20px", md: "50px" } }}>Estudante de Análise e Desenvolvimento de Sistemas</Typography>
         <Typography color="#FBCA03" variant='subtitle2' sx={{ paddingTop: { xs: "20px", md: "20px" } }}>Minha jornada na tecnologia começou como uma fuga do cotidiano, mas rapidamente se transformou em uma paixão genuína. Enxerguei na tecnologia a oportunidade de transformar essa paixão em uma carreira significativa. Como estudante de Análise e Desenvolvimento de Sistemas, estou empenhado em aprender e crescer nesse campo, ansioso para contribuir e fazer o que realmente amo.
         </Typography>
-        <Link href="https://github.com/lemosdiego/Certificados" target="_blank">
-          <Button sx={{ width: "140px", color: "#FBCA03", background: "#AA0505" }}>Certificados</Button>
-        </Link>
+        <Grid sx={{paddingTop:{xs:"4px"}}}>
+          <Link href="https://github.com/lemosdiego/Certificados" target="_blank">
+            <Button sx={{ width: "140px", color: "#FBCA03", background: "#AA0505" }}>Certificados</Button>
+          </Link>
+        </Grid>
       </Grid>
     </Grid>
   )
