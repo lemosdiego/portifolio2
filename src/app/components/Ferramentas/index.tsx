@@ -12,7 +12,7 @@ export const Ferramentas = () => {
         <Grid item  >
           <Icon sx={{ width: { xs: "70px", md: "80px" }, height: { xs: "50px", md: "80px" }, borderRadius: 50 }}><img src="/iconessvg/js.svg" alt="javascript" width="50px" height="50px" /></Icon>
           <LinearProgress variant="determinate" color="primary" value={70} />
-          <Typography color="#FBCA03">70%</Typography>
+          <Typography color="#FBCA03">40%</Typography>
           <Typography variant="subtitle2" color="#FBCA03">JavaScript</Typography>
         </Grid>
         <Grid item  >
@@ -48,7 +48,7 @@ export const Ferramentas = () => {
         <Grid item  >
           <Icon sx={{ width: { xs: "70px", md: "80px" }, height: { xs: "50px", md: "80px" }, borderRadius: 50 }}><img src="/iconessvg/python.svg" alt="python" width="50px" height="50px" /></Icon>
           <LinearProgress color="primary" variant="determinate" value={60} />
-          <Typography color="#FBCA03">60%</Typography>
+          <Typography color="#FBCA03">50%</Typography>
           <Typography variant="subtitle2" color="#FBCA03">Python</Typography>
         </Grid>
         <Grid item  >
@@ -60,7 +60,7 @@ export const Ferramentas = () => {
         <Grid item  >
           <Icon sx={{ width: { xs: "70px", md: "80px" }, height: { xs: "50px", md: "80px" }, borderRadius: 50 }}><img src="/iconessvg/typescript.svg" alt="typescript" width="50px" height="50px" /></Icon>
           <LinearProgress color="primary" variant="determinate" value={70} />
-          <Typography color="#FBCA03">70%</Typography>
+          <Typography color="#FBCA03">40%</Typography>
           <Typography variant="subtitle2" color="#FBCA03">TypeScript</Typography>
         </Grid>
         <Grid item  >
