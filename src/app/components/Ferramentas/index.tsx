@@ -11,7 +11,7 @@ export const Ferramentas = () => {
       <Grid container display="flex" sx={{ gap: { xs: "20px", md: "20px" }, justifyContent: "center", paddingTop: { xs: "30px", md: "80px" }, flexWrap: { xs: "wrap" }, padding: "40px" }}>
         <Grid item  >
           <Icon sx={{ width: { xs: "70px", md: "80px" }, height: { xs: "50px", md: "80px" }, borderRadius: 50 }}><img src="/iconessvg/js.svg" alt="javascript" width="50px" height="50px" /></Icon>
-          <LinearProgress variant="determinate" color="primary" value={70} />
+          <LinearProgress variant="determinate" color="primary" value={40} />
           <Typography color="#FBCA03">40%</Typography>
           <Typography variant="subtitle2" color="#FBCA03">JavaScript</Typography>
         </Grid>
@@ -29,8 +29,8 @@ export const Ferramentas = () => {
         </Grid>
         <Grid item  >
           <Icon sx={{ width: { xs: "70px", md: "80px" }, height: { xs: "50px", md: "80px" }, borderRadius: 50 }}><img src="/iconessvg/next.svg" alt="nextjs" width="50px" height="50px" /></Icon>
-          <LinearProgress color="primary" variant="determinate" value={80} />
-          <Typography color="#FBCA03">80%</Typography>
+          <LinearProgress color="primary" variant="determinate" value={60} />
+          <Typography color="#FBCA03">60%</Typography>
           <Typography variant="subtitle2" color="#FBCA03">Next.JS</Typography>
         </Grid>
         <Grid item  >
@@ -59,7 +59,7 @@ export const Ferramentas = () => {
         </Grid>
         <Grid item  >
           <Icon sx={{ width: { xs: "70px", md: "80px" }, height: { xs: "50px", md: "80px" }, borderRadius: 50 }}><img src="/iconessvg/typescript.svg" alt="typescript" width="50px" height="50px" /></Icon>
-          <LinearProgress color="primary" variant="determinate" value={70} />
+          <LinearProgress color="primary" variant="determinate" value={40} />
           <Typography color="#FBCA03">40%</Typography>
           <Typography variant="subtitle2" color="#FBCA03">TypeScript</Typography>
         </Grid>
