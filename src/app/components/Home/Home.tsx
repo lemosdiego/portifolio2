@@ -24,7 +24,7 @@ export const Inicio = () => {
         <Typography sx={{ paddingTop: {xs:"20px", md: "20px", sm:"50px", lg:"48px" } }} variant="h4" color="#FBCA03">Olá, me chamo Washington!</Typography>
         <Typography variant="subtitle1" color="#FBCA03" sx={{ paddingTop: { xs: "20px",sm:"20px", md: "10px" }, paddingBottom: { xs: "20px" } }}> Sou um estudante apaixonado por tecnologia e estou determinado a conquistar um estágio na área. Quero aproveitar ao máximo cada oportunidade para aprender e crescer, aplicando o que aprendo no mundo real. Vamos juntos nessa jornada de aprendizado e desenvolvimento!
         </Typography>
-        <Link href="https://drive.google.com/file/d/1yOj0rzD5tzgOHgO-stWb5n4rkse6j08m/view?usp=drive_link" target="_blank">
+        <Link href="https://drive.google.com/file/d/1pVS8KogwwRGkJpVU2stMlkAAeqfUirTQ/view?usp=sharing" target="_blank">
         <Button sx={{background:"#AA0505",color:"#FBCA03"}}>currículo</Button>
         </Link>
       </Grid>
